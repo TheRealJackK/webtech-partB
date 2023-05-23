@@ -1,0 +1,466 @@
+/* Heading Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*
+Colours
+
+Header, Footer, Cards - #ffffff
+Main, Section, Article - #f2f2f2
+H1, Link - #006bb4
+H2, Link(Active) - #fed420
+H3, Link(Hover, Visited) - #009b57
+*/
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    color: #006bb4;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    color: #fed420;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    color: #009b57;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#CDElogo {
+    width: 30%;
+}
+
+/* Header & Footer Styling */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+header > span {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-top: 2px solid #009b57;
+    max-width: 80%;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
+}
+
+header > span > a {
+    position: relative;
+    background: #009b57;
+    background-image: linear-gradient(to bottom right, #009b57, #004d99);
+    width: 15%;
+    border-radius: 30px;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    transition: 500ms;
+    z-index: 1;
+}
+
+header > span > a::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #004d99, #009b57);
+    z-index: -1;
+    transition: opacity 0.2s linear;
+    opacity: 0;
+}
+
+header > span > a:hover::before {
+    opacity: 1;
+}
+
+header > span > div > img {
+    cursor: pointer;
+}
+
+#email::before {
+    content: "enquiries";
+}
+
+#email::after {
+    content: "bneparkmanagement.gov.au";
+}
+
+#hamburger-container > #hamburger-links {
+    margin-right: 2.5em;
+    margin-top: -1em;
+    margin-bottom: -0.5em;
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    transition: 500ms;
+}
+
+#hamburger-container:hover > #hamburger-links {
+    display: block;
+    text-decoration: underline #009b57 1.5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1em;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 18px, rgba(0, 0, 0, 0.23) 0px 3px 18px;
+}
+
+footer > h1 {
+    padding-top: 1em;
+}
+
+footer > div {
+    width: 0px;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #009b57;
+}
+
+footer > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 0.5em;
+    max-width: 80%;
+}
+
+footer > span > a {
+    text-decoration: none;
+    transition: 500ms;
+}
+
+footer > span > a:hover {
+    transform: scale(1.15, 1.15);
+    text-decoration: underline 1.5px #009b57;
+}
+
+footer > span > img {
+    width: 5em;
+}
+
+/* Page Styling */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    border-bottom: solid 2px #009b57;
+    padding-bottom: 1em;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    margin-top: 200px;
+    width: fit-content;
+}
+
+main a {
+  color: #009b57;  
+}
+
+main div > img {
+    border-radius: 4px;
+    margin: 2em
+}
+
+/* Card Styling */
+
+.card-group {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-group > a {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: fit-content;
+    margin: 1em;
+    padding: 0.5em;
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    transition: 500ms;
+}
+
+.card:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+.card > img {
+    display: none;
+}
+
+.card > iframe {
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    margin: 1em;
+    width: 25em;
+    height: 25em;
+}
+
+.card > h3 {
+    max-width: 20em;
+    font-size: 1.5rem;
+}
+
+.card > p {
+    max-width: 20em;
+}
+
+.card-alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: fit-content;
+    margin: 1em;
+    padding: 0.5em;
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    transition: 500ms;
+}
+
+.card-alt:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+.card-alt > img {
+    border: 2px solid #009b57;
+    border-radius: 4px;
+}
+
+.card-alt > h3 {
+    max-width: 20em;
+    font-size: 1.5rem;
+}
+
+.card-alt > p {
+    max-width: 20em;
+}
+
+form {
+    width: 50%;
+    margin: 1em;
+    padding: 1em;
+    background: #333333;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    border: 2px solid #009b57;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+form h3 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: left;
+}
+
+form label {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: left;
+}
+
+form input {
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #262626;
+    font-family: 'Kanit', sans-serif;
+}
+
+form select {
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #262626;
+    font-family: 'Kanit', sans-serif;
+}
+
+form textarea {
+    border: 2px solid #009b57;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #262626;
+    font-family: 'Kanit', sans-serif;
+}
+
+#submit {
+    width: 100%;
+    margin: auto;
+    margin-top: 1em;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    transition: 500ms;
+}
+
+#submit:hover {
+    transform: scale(1.01, 1.01);
+    color: #009b57;
+}
+
+#honeypot {
+    display: none;
+}
+
+/* Loading Spinner */
+
+@media screen and (max-width: 600px) {
+
+    .header h1 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .header h2 {
+        font-size: 1rem;
+    }
+
+    .map-box {
+        display: none;
+    }
+
+    .card-group {
+        max-width: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card iframe {
+        display: none;
+    }
+
+    .card img {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        width: 15em;
+        padding: 0.5em;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .main h2 {
+        margin-top: 150px;
+    }
+
+    .main span {
+        padding-bottom: 1em;
+    }
+
+    .main form {
+        width: 90%;
+    }
+
+    .main div > img {
+        width: 80%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #hamburger-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hamburger-container > #hamburger-icon {
+        display: block;
+    }
+
+    #CDElogo {
+        width: 70%;
+    }
+    
+    #map-spinner {
+        display: none;
+    }
+
+    #submit {
+        width: 100%;
+        height: 2em;
+    }
+}
