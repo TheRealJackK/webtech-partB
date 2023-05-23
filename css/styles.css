@@ -63,7 +63,7 @@ header p {
     font-size: 1.1em;
 }
 
-header > span {
+header > nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -72,46 +72,26 @@ header > span {
     max-width: 80%;
 }
 
-header > div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    max-width: 80%;
-}
-
-header > span > a {
+header > nav > a {
+    color: #006bb4;
     position: relative;
-    background: #009b57;
-    background-image: linear-gradient(to bottom right, #009b57, #004d99);
     width: 15%;
-    border-radius: 30px;
-    margin: 10px 0 10px 0;
     text-decoration: none;
     transition: 500ms;
     z-index: 1;
-}
-
-header > span > a::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 30px;
-    background-image: linear-gradient(to bottom right, #004d99, #009b57);
-    z-index: -1;
-    transition: opacity 0.2s linear;
-    opacity: 0;
-}
-
-header > span > a:hover::before {
-    opacity: 1;
-}
-
-header > span > div > img {
     cursor: pointer;
+}
+
+header > nav > a:hover {
+    color: #009b57;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
 }
 
 #email::before {
@@ -120,6 +100,10 @@ header > span > div > img {
 
 #email::after {
     content: "bneparkmanagement.gov.au";
+}
+
+#hamburger-container {
+    display: none;
 }
 
 #hamburger-container > #hamburger-links {
@@ -168,29 +152,27 @@ footer > span {
 }
 
 footer > span > a {
+    color: #006bb4;
     text-decoration: none;
     transition: 500ms;
+    cursor: pointer;
 }
 
 footer > span > a:hover {
-    transform: scale(1.15, 1.15);
-    text-decoration: underline 1.5px #009b57;
-}
-
-footer > span > img {
-    width: 5em;
+    color: #009b57;
 }
 
 /* Page Styling */
 
 main {
+    background: url(../images/queens-garden.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-main > span {
+main > div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -221,7 +203,7 @@ main div > img {
 .card-group {
     max-width: 100%;
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -236,12 +218,12 @@ main div > img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #333333;
+    background: #f2f2f2;
     width: fit-content;
-    margin: 1em;
+    margin: 1em 3em 0em 3em;
     padding: 0.5em;
     border: 2px solid #009b57;
-    border-radius: 4px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
     transition: 500ms;
 }
@@ -252,7 +234,9 @@ main div > img {
 }
 
 .card > img {
-    display: none;
+    border: 2px solid #009b57;
+    border-radius: 10px;
+    margin: 1em;
 }
 
 .card > iframe {
@@ -383,16 +367,16 @@ form textarea {
 
 @media screen and (max-width: 600px) {
 
-    .header h1 {
+    header h1 {
         font-size: 1.5rem;
         margin: 0;
     }
 
-    .header h2 {
+    header h2 {
         font-size: 1rem;
     }
 
-    .map-box {
+    header img {
         display: none;
     }
 
@@ -406,39 +390,33 @@ form textarea {
         width: 90%;
     }
 
-    .card iframe {
-        display: none;
-    }
-
     .card img {
         justify-content: center;
         align-items: center;
-        display: block;
         width: 15em;
-        padding: 0.5em;
     }
 
-    .footer {
+    footer {
         display: none;
     }
 
-    .main h2 {
+    main h2 {
         margin-top: 150px;
     }
 
-    .main span {
+    main > div {
         padding-bottom: 1em;
     }
 
-    .main form {
+    main form {
         width: 90%;
     }
 
-    .main div > img {
+    main > div > img {
         width: 80%;
     }
 
-    .nav {
+    nav {
         display: none;
     }
 
@@ -449,14 +427,6 @@ form textarea {
 
     #hamburger-container > #hamburger-icon {
         display: block;
-    }
-
-    #CDElogo {
-        width: 70%;
-    }
-    
-    #map-spinner {
-        display: none;
     }
 
     #submit {
