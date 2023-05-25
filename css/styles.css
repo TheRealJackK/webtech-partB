@@ -83,20 +83,16 @@ header > nav > a:hover {
     color: #009b57;
 }
 
+header > nav > a:visited {
+    color: #fed420;
+}
+
 header > div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
     max-width: 80%;
-}
-
-#email::before {
-    content: "enquiries";
-}
-
-#email::after {
-    content: "bneparkmanagement.gov.au";
 }
 
 #hamburger-container {
@@ -115,7 +111,15 @@ header > div {
 
 #hamburger-container:hover > #hamburger-links {
     display: block;
-    text-decoration: underline #009b57 1.5px;
+}
+
+
+#email::before {
+    content: "enquiries";
+}
+
+#email::after {
+    content: "bneparkmanagement.gov.au";
 }
 
 footer {
@@ -283,66 +287,62 @@ main div > img {
 }
 
 form {
-    width: 50%;
     margin: 1em;
     padding: 1em;
-    background: #333333;
+    background: #ffffff;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
-    border: 2px solid #009b57;
 }
 
-form div {
+form > fieldset {
     display: flex;
     flex-direction: column;
+    border: 4px solid #009b57;
     border-radius: 4px;
 }
 
-form h3 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size: 1.5em;
-    color: #ffffff;
-    text-align: left;
+form > fieldset > legend {
+    font-family: 'Jost', sans-serif;
+    font-size: xx-large;
+    color: #009b57;
 }
 
-form label {
+form > fieldset > label {
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: #ffffff;
+    color: #009b57;
     font-size: 1em;
     text-align: left;
 }
 
-form input {
-    border: 2px solid #009b57;
+form > fieldset > input {
+    border: 4px solid #009b57;
     border-radius: 4px;
-    color: #ffffff;
-    background: #262626;
-    font-family: 'Kanit', sans-serif;
+    color: #009b57;
+    background: #f2f2f2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-form select {
-    border: 2px solid #009b57;
+form > fieldset > select {
+    border: 4px solid #009b57;
     border-radius: 4px;
-    color: #ffffff;
-    background: #262626;
-    font-family: 'Kanit', sans-serif;
+    color: #009b57;
+    background: #f2f2f2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-form textarea {
-    border: 2px solid #009b57;
+form > fieldset > textarea {
+    border: 4px solid #009b57;
     border-radius: 4px;
-    color: #ffffff;
-    background: #262626;
-    font-family: 'Kanit', sans-serif;
+    color: #009b57;
+    background: #f2f2f2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 #submit {
-    width: 100%;
-    margin: auto;
     margin-top: 1em;
     cursor: pointer;
-    color: #ffffff;
-    font-family: 'Kanit', sans-serif;
+    color: #009b57;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     transition: 500ms;
 }
 
@@ -354,8 +354,6 @@ form textarea {
 #honeypot {
     display: none;
 }
-
-/* Loading Spinner */
 
 @media screen and (max-width: 600px) {
 
@@ -400,10 +398,6 @@ form textarea {
         padding-bottom: 1em;
     }
 
-    main form {
-        width: 90%;
-    }
-
     main > div > img {
         width: 80%;
     }
@@ -415,6 +409,7 @@ form textarea {
     #hamburger-container {
         display: flex;
         flex-direction: column;
+        border-top: 4px solid #009b57;
     }
 
     #hamburger-container > #hamburger-icon {
