@@ -286,7 +286,10 @@ main div > img {
     width: 5em;
 }
 
+/* Form Styling */
+
 form {
+    width: 90%;
     margin: 1em;
     padding: 1em;
     background: #ffffff;
@@ -355,6 +358,8 @@ form > fieldset > textarea {
     display: none;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 600px) {
 
     header h1 {
@@ -367,6 +372,26 @@ form > fieldset > textarea {
     }
 
     header img {
+        display: none;
+    }
+
+    header > nav {
+        display: none;
+    }
+
+    main h2 {
+        margin-top: 125px;
+    }
+
+    main > div {
+        padding-bottom: 1em;
+    }
+
+    main > div > img {
+        width: 80%;
+    }
+
+    footer {
         display: none;
     }
 
@@ -386,24 +411,24 @@ form > fieldset > textarea {
         width: 7em;
     }
 
-    footer {
-        display: none;
+    form {
+        margin-bottom: 4.6em;
     }
 
-    main h2 {
-        margin-top: 125px;
+    form > fieldset > legend {
+        font-size: x-large;
     }
 
-    main > div {
-        padding-bottom: 1em;
+    form > fieldset > input {
+        width: 95%;
     }
 
-    main > div > img {
-        width: 80%;
+    form > fieldset > select {
+        width: 100%;
     }
 
-    header > nav {
-        display: none;
+    form > fieldset > textarea {
+        width: 95%;
     }
 
     #hamburger-container {
