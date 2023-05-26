@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/bcmp-logo-64x64.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>BNE Park Management | Function Hire</title>
+    <title>BNE Park Management | Contact Us</title>
 </head>
 <body>
     <header>
@@ -15,27 +15,27 @@
             <h1>Brisbane City Park Management</h1>
         </div>
         <nav>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </nav>
         <div id="hamburger-container">
             <img id="hamburger-icon" src="../images/hamburger.svg" alt="hamburger" />
             <ul id="hamburger-links">
-                <a href="../index.html"><p>Home</p></a>
-                <li><a href="about.html"><p>About</p></a></li>
-                <li><a href="events.html"><p>Upcoming Events</p></a></li>
-                <li><a href="nearby.html"><p>Nearby Amenities</p></a></li>
-                <li><a href="functionhire.html"><p>Function Hire</p></a></li>
-                <li><a href="contact.html"><p>Contact</p></a></li>
+                <a href="../index.php"><p>Home</p></a>
+                <li><a href="about.php"><p>About</p></a></li>
+                <li><a href="events.php"><p>Upcoming Events</p></a></li>
+                <li><a href="nearby.php"><p>Nearby Amenities</p></a></li>
+                <li><a href="functionhire.php"><p>Function Hire</p></a></li>
+                <li><a href="contact.php"><p>Contact</p></a></li>
             </ul>
         </div>
     </header>
     <main>
-        <h2>Function Hire</h2>
+        <h2>Contact Us</h2>
         <div>
             <form>
                 <fieldset>
@@ -45,10 +45,7 @@
                     <label>Subject</label>
                     <input type="text" name="_honey" id="honeypot"></input>
                     <select name="subject" id="subject" required>
-                        <option>General Function Hire</option>
-                        <option>Queen's Garden Function Hire</option>
-                        <option>Botanic Garden's Function Hire</option>
-                        <option>Anzac Square Function Hire</option>
+                        <option>Enquiry</option>
                     </select>
                     <label>Body</label>
                     <textarea rows="5" cols="60" name="message" id="message" placeholder="Message Here" required></textarea>
@@ -65,12 +62,12 @@
         </span>
         <div></div>
         <span>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </span>
         <div></div>
         <span>
@@ -84,4 +81,4 @@
         </span>
     </footer>
 </body>
-</html>
+</php>

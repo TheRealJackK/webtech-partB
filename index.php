@@ -15,22 +15,22 @@
             <h1>Brisbane City Park Management</h1>
         </div>
         <nav>
-            <a href="index.html"><p>Home</p></a>
-            <a href="./pages/about.html"><p>About</p></a>
-            <a href="./pages/events.html"><p>Upcoming Events</p></a>
-            <a href="./pages/nearby.html"><p>Nearby Amenities</p></a>
-            <a href="./pages/functionhire.html"><p>Function Hire</p></a>
-            <a href="./pages/contact.html"><p>Contact</p></a>
+            <a href="index.php"><p>Home</p></a>
+            <a href="./pages/about.php"><p>About</p></a>
+            <a href="./pages/events.php"><p>Upcoming Events</p></a>
+            <a href="./pages/nearby.php"><p>Nearby Amenities</p></a>
+            <a href="./pages/functionhire.php"><p>Function Hire</p></a>
+            <a href="./pages/contact.php"><p>Contact</p></a>
         </nav>
         <div id="hamburger-container">
             <img id="hamburger-icon" src="/images/hamburger.svg" alt="hamburger" />
             <ul id="hamburger-links">
-                <li><a href="index.html"><p>Home</p></a></li>
-                <li><a href="./pages/about.html"><p>About</p></a></li>
-                <li><a href="./pages/events.html"><p>Upcoming Events</p></a></li>
-                <li><a href="./pages/nearby.html"><p>Nearby Amenities</p></a></li>
-                <li><a href="./pages/functionhire.html"><p>Function Hire</p></a></li>
-                <li><a href="./pages/contact.html"><p>Contact</p></a></li>
+                <li><a href="index.php"><p>Home</p></a></li>
+                <li><a href="./pages/about.php"><p>About</p></a></li>
+                <li><a href="./pages/events.php"><p>Upcoming Events</p></a></li>
+                <li><a href="./pages/nearby.php"><p>Nearby Amenities</p></a></li>
+                <li><a href="./pages/functionhire.php"><p>Function Hire</p></a></li>
+                <li><a href="./pages/contact.php"><p>Contact</p></a></li>
             </ul>
         </div>
     </header>
@@ -69,12 +69,12 @@
         </span>
         <div></div>
         <span>
-            <a href="index.html"><p>Home</p></a>
-            <a href="./pages/about.html"><p>About</p></a>
-            <a href="./pages/events.html"><p>Upcoming Events</p></a>
-            <a href="./pages/nearby.html"><p>Nearby Amenities</p></a>
-            <a href="./pages/functionhire.html"><p>Function Hire</p></a>
-            <a href="./pages/contact.html"><p>Contact</p></a>
+            <a href="index.php"><p>Home</p></a>
+            <a href="./pages/about.php"><p>About</p></a>
+            <a href="./pages/events.php"><p>Upcoming Events</p></a>
+            <a href="./pages/nearby.php"><p>Nearby Amenities</p></a>
+            <a href="./pages/functionhire.php"><p>Function Hire</p></a>
+            <a href="./pages/contact.php"><p>Contact</p></a>
         </span>
         <div></div>
         <span>

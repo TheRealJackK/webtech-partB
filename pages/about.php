@@ -15,22 +15,22 @@
             <h1>Brisbane City Park Management</h1>
         </div>
         <nav>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </nav>
         <div id="hamburger-container">
             <img id="hamburger-icon" src="../images/hamburger.svg" alt="hamburger" />
             <ul id="hamburger-links">
-                <a href="../index.html"><p>Home</p></a>
-                <li><a href="about.html"><p>About</p></a></li>
-                <li><a href="events.html"><p>Upcoming Events</p></a></li>
-                <li><a href="nearby.html"><p>Nearby Amenities</p></a></li>
-                <li><a href="functionhire.html"><p>Function Hire</p></a></li>
-                <li><a href="contact.html"><p>Contact</p></a></li>
+                <a href="../index.php"><p>Home</p></a>
+                <li><a href="about.php"><p>About</p></a></li>
+                <li><a href="events.php"><p>Upcoming Events</p></a></li>
+                <li><a href="nearby.php"><p>Nearby Amenities</p></a></li>
+                <li><a href="functionhire.php"><p>Function Hire</p></a></li>
+                <li><a href="contact.php"><p>Contact</p></a></li>
             </ul>
         </div>
     </header>
@@ -44,12 +44,12 @@
         </span>
         <div></div>
         <span>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </span>
         <div></div>
         <span>
@@ -63,4 +63,4 @@
         </span>
     </footer>
 </body>
-</html>
+</php>

@@ -1,3 +1,7 @@
+<?php 
+    require_once "../backend/connect.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/bcmp-logo-64x64.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>BNE Park Management | Upcoming Events</title>
+    <title>BNE Park Management | What's Nearby</title>
 </head>
 <body>
     <header>
@@ -15,28 +19,28 @@
             <h1>Brisbane City Park Management</h1>
         </div>
         <nav>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </nav>
         <div id="hamburger-container">
-            <img id="hamburger-icon" src="" alt="hamburger" />
+            <img id="hamburger-icon" src="../images/hamburger.svg" alt="hamburger" />
             <ul id="hamburger-links">
-                <a href="../index.html"><p>Home</p></a>
-                <li><a href="about.html"><p>About</p></a></li>
-                <li><a href="events.html"><p>Upcoming Events</p></a></li>
-                <li><a href="nearby.html"><p>Nearby Amenities</p></a></li>
-                <li><a href="functionhire.html"><p>Function Hire</p></a></li>
-                <li><a href="contact.html"><p>Contact</p></a></li>
+                <a href="../index.php"><p>Home</p></a>
+                <li><a href="about.php"><p>About</p></a></li>
+                <li><a href="events.php"><p>Upcoming Events</p></a></li>
+                <li><a href="nearby.php"><p>Nearby Amenities</p></a></li>
+                <li><a href="functionhire.php"><p>Function Hire</p></a></li>
+                <li><a href="contact.php"><p>Contact</p></a></li>
             </ul>
         </div>
     </header>
     <main>
         <div>
-            <h2>Upcoming Event's</h2>
+            <h2>Nearby Amenities</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae quos debitis eligendi consectetur natus quasi molestias, sapiente sed quis quidem provident autem aspernatur. Amet sit odio commodi ducimus accusantium?
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo error saepe sapiente repudiandae doloribus ut, aliquid, quod dolores vero animi ullam? Debitis, veritatis iusto ut autem libero excepturi? Praesentium, pariatur.
@@ -45,24 +49,27 @@
             </p>
         </div>
         <div class="card-group">
-            <div class="card">
-                <h3>Event Title</h3>
-                <img src="https://picsum.photos/200" alt="Event Image URL">
-                <p>Event Date</p>
-                <p>Event Description</p>
-            </div>
-            <div class="card">
-                <h3>Event Title</h3>
-                <img src="https://picsum.photos/200" alt="Event Image URL">
-                <p>Event Date</p>
-                <p>Event Description</p>
-            </div>
-            <div class="card">
-                <h3>Event Title</h3>
-                <img src="https://picsum.photos/200" alt="Event Image URL">
-                <p>Event Date</p>
-                <p>Event Description</p>
-            </div>
+            <?php 
+                $sql = "SELECT * FROM places";
+                $result = $connect->query($sql);
+
+                if ($result->num_rows > 0) {
+                    // Output data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        ?>
+                        <div class="card">
+                            <h3><?php echo $row["placename"]; ?></h3>
+                            <img src=<?php echo $row["imageurl"]; ?> alt=<?php ?>>
+                            <p><?php echo $row["placedesc"];?></p>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    echo "No results found.";
+                }
+            
+                $connect->close();
+            ?>
         </div>
     </main>
     <footer>
@@ -72,12 +79,12 @@
         </span>
         <div></div>
         <span>
-            <a href="../index.html"><p>Home</p></a>
-            <a href="about.html"><p>About</p></a>
-            <a href="events.html"><p>Upcoming Events</p></a>
-            <a href="nearby.html"><p>Nearby Amenities</p></a>
-            <a href="functionhire.html"><p>Function Hire</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <a href="../index.php"><p>Home</p></a>
+            <a href="about.php"><p>About</p></a>
+            <a href="events.php"><p>Upcoming Events</p></a>
+            <a href="nearby.php"><p>Nearby Amenities</p></a>
+            <a href="functionhire.php"><p>Function Hire</p></a>
+            <a href="contact.php"><p>Contact</p></a>
         </span>
         <div></div>
         <span>
@@ -91,4 +98,4 @@
         </span>
     </footer>
 </body>
-</html>
+</php>
