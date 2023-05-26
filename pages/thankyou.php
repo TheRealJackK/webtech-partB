@@ -35,7 +35,17 @@
         </div>
     </header>
     <main>
-        <h2>About Us</h2>
+        <div>
+            <h2>Thank You</h2>
+            <p>
+                We would like to thank you for reaching out to us. 
+                Your decision to connect with our team demonstrates your trust in our services and we value your confidence in us. 
+                Your email has not only given us the chance to assist you but also serves as a reminder of the wonderful community that we serve.
+                We understand that your time is precious, and we genuinely appreciate your investment of it in reaching out to us, response time typically averages 1-3 business days.
+                If you do not hear back from us please send us a second enquiry or contact you local council.
+                Should you have any further queries or require additional assistance, please do not hesitate to contact us. We are here to support you every step of the way and look forward to the opportunity to serve you further.
+            </p>
+        </div>
     </main>
     <footer>
         <span>

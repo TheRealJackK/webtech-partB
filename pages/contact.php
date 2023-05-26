@@ -37,7 +37,7 @@
     <main>
         <h2>Contact Us</h2>
         <div>
-            <form>
+            <form action="../backend/insert.php" method="post">
                 <fieldset>
                     <legend>Send Us An Email</legend>
                     <label>Email</label>
@@ -45,11 +45,14 @@
                     <label>Subject</label>
                     <input type="text" name="_honey" id="honeypot"></input>
                     <select name="subject" id="subject" required>
-                        <option>Enquiry</option>
+                        <option>General Enquiry</option>
+                        <option>General Function Hire</option>
+                        <option>Queen's Garden Function Hire</option>
+                        <option>Botanic Garden's Function Hire</option>
+                        <option>Anzac Square Function Hire</option>
                     </select>
                     <label>Body</label>
                     <textarea rows="5" cols="60" name="message" id="message" placeholder="Message Here" required></textarea>
-                    <input type="hidden" name="_next" value="http://192.168.68.104:3000/Thankyou"></input>
                     <input type="submit" id="submit" value="Send Enquiry"></input>
                 </fieldset>
             </form>
