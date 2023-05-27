@@ -2,7 +2,7 @@ CREATE TABLE events (
   eventtitle VARCHAR(50),
   imageurl VARCHAR(100),
   eventdate VARCHAR(50),
-  eventdesc VARCHAR(200)
+  eventdesc VARCHAR(1000)
 );
 
 INSERT INTO events (eventtitle, imageurl, eventdate, eventdesc)
@@ -14,7 +14,7 @@ VALUES ('Event 1', 'https://nceptior.sirv.com/bneparkmanagement/eventimage.png',
 CREATE TABLE places (
   placename VARCHAR(50),
   imageurl VARCHAR(100),
-  placedesc VARCHAR(200)
+  placedesc VARCHAR(1000)
 );
 
 INSERT INTO places (placename, imageurl, placedesc)
@@ -30,3 +30,14 @@ CREATE TABLE enquiries (
 
 INSERT INTO enquiries (sender, subject, message)
 VALUES ('user@domain.com', 'subject', 'message' );
+
+CREATE TABLE eventtypes (
+  eventtype VARCHAR(50),
+  imageurl VARCHAR(100),
+  eventtypedesc VARCHAR(1000)
+);
+
+INSERT INTO eventtypes (eventtype, imageurl, eventtypedesc)
+VALUES ('Weddings', 'https://nceptior.sirv.com/bneparkmanagement/wedding.png', "If you've got the love,and a guest list of your nearest and dearest, Council has perfect uniquely-Brisbane venues for small, special and stylish socially-distanced events for all occasions. From venues with a view to riverside settings and spaces for celebrating on a budget, we've got you covered with this list of best local venues for events."),
+       ('Corperate Functions', 'https://nceptior.sirv.com/bneparkmanagement/corpfunction.png', "Brisbane's sunny disposition makes our parks the perfect venue for outdoor celebrations. We are spoiled for choice with more than 2100 parks across the city, enjoy the best of Brisbane's skyline and riverside scenery."),
+       ('Music Events', 'https://nceptior.sirv.com/bneparkmanagement/concert.png', "Brisbane's sunny disposition makes our parks the perfect venue for outdoor celebrations. We are spoiled for choice with more than 2100 parks across the city, enjoy the best of Brisbane's skyline and riverside scenery.");

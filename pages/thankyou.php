@@ -11,7 +11,7 @@
 <body>
     <header>
         <div>
-            <img src="../images/bcmp-logo-128x128.png" alt="logo">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcmp-logo-128x128.png" alt="logo">
             <h1>Brisbane City Park Management</h1>
         </div>
         <nav>
@@ -23,7 +23,7 @@
             <a href="contact.php"><p>Contact</p></a>
         </nav>
         <div id="hamburger-container">
-            <img id="hamburger-icon" src="../images/hamburger.svg" alt="hamburger" />
+            <img id="hamburger-icon" src="https://nceptior.sirv.com/bneparkmanagement/hamburger.svg" alt="hamburger" />
             <ul id="hamburger-links">
                 <a href="../index.php"><p>Home</p></a>
                 <li><a href="about.php"><p>About</p></a></li>
@@ -63,13 +63,13 @@
         </span>
         <div></div>
         <span>
-            <img src="../images/facebook.svg" alt="social media icon">
-            <img src="../images/instagram.svg" alt="social media icon">
-            <img src="../images/linkedin.svg" alt="social media icon">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
         </span>
         <div></div>
         <span>
-            <img src="../images/bcmp-logo-250x250.png" alt="logo">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcmp-logo-250x250.png" alt="logo">
         </span>
     </footer>
 </body>

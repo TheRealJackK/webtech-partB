@@ -19,7 +19,8 @@ if ($connect->connect_error) {
 }
 
 // Insert data into db
-$sql = "INSERT INTO enquiries (sender, subject, message) VALUES ('$sender', '$subject', '$message')";
+$sql = "INSERT INTO enquiries (sender, subject, message) 
+        VALUES ('$sender', '$subject', '$message')";
 
 if ($connect->query($sql) === TRUE) {
     // Redirect back to site after insertion is complete
