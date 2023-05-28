@@ -47,27 +47,21 @@
             </p>
         </div>
         <div class="card-group">
-            <a href="nearby.php">
-                <div class="card">
-                    <h3>See What's Nearby</h3>
-                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/whats-nearby.svg" alt="icon">
-                    <p>Click here to see the nearby places you can visit!</p>
-                </div>
-            </a>
-            <a href="events.php">
-                <div class="card">
-                    <h3>Upcoming Events</h3>
-                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/upcoming-events.svg" alt="icon">
-                    <p>Click here to see the upcoming events in the park!</p>
-                </div>
-            </a>
-            <a href="functionhire.php">
-                <div class="card">
-                    <h3>Function Hire</h3>
-                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/function-hire.svg" alt="icon">
-                    <p>Want to hire out one of our parks? Click Here!</p>
-                </div>
-            </a>
+            <div class="card">
+                <h3>See What's Nearby</h3>
+                <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/whats-nearby.svg" alt="icon">
+                <p><a href="nearby.php">Click here</a> to see the nearby places you can visit!</p>
+            </div>
+            <div class="card">
+                <h3>Upcoming Events</h3>
+                <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/upcoming-events.svg" alt="icon">
+                <p><a href="nearby.php">Click here</a> to see the upcoming events in the park!</p>
+            </div>
+            <div class="card">
+                <h3>Function Hire</h3>
+                <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/function-hire.svg" alt="icon">
+                <p><a href="nearby.php">Click here</a> to hire out one one of our venues!</p>
+            </div>
         </div>
     </main>
     <footer>
