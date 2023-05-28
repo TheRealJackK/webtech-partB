@@ -42,10 +42,10 @@
         <div>
             <h2>Upcoming Event's</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae quos debitis eligendi consectetur natus quasi molestias, sapiente sed quis quidem provident autem aspernatur. Amet sit odio commodi ducimus accusantium?
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo error saepe sapiente repudiandae doloribus ut, aliquid, quod dolores vero animi ullam? Debitis, veritatis iusto ut autem libero excepturi? Praesentium, pariatur.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ipsa libero, beatae ipsum tenetur nam reiciendis voluptas obcaecati saepe voluptatibus magnam sed fugit maiores illum minus provident. Iusto, sit odio?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et autem laborum esse atque, labore doloremque numquam placeat officia impedit qui cupiditate. Optio totam quas illo explicabo molestias et a?
+                All year round we have a number of event's in our various parks around Brisbance CBD. 
+                If they're listed below they are open to the public.
+                Ranging from family friendly events to after dark de-stressers we have something for everybody, new events are listed monthly.
+                Come on down, bring your family or friends and join us for a great time out!
             </p>
         </div>
         <div class="card-group">
@@ -89,9 +89,9 @@
         </span>
         <div></div>
         <span>
-            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
+            <a href="https://www.facebook.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon"></a>
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon"></a>
         </span>
         <div></div>
         <span>

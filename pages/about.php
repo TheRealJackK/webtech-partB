@@ -35,7 +35,23 @@
         </div>
     </header>
     <main>
+        <div>
         <h2>About Us</h2>
+        <p>
+            Brisbane City Park Management is a government organisation and subsidiary of Brisbane City Council. 
+            We are tasked with the management of public parks within Brisbane CBD and surrounding areas. 
+            We have a rich history in the management and upkeep of local parks and other green areas located in Brisbane CBD and surrounding suburbs. 
+            We have a fantastic reputation in generating income for the local government in organising events and functions in the areas they manage.
+        </p>    
+        </div>
+        <div id ="smallscreen">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcmp-logo-250x250.png" alt="bcpm-logo">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcc-logo-250x250.png" alt="bcc-logo">
+        </div>
+        <div id="largescreen">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcmp-logo-500x500.png" alt="bcpm-logo">
+            <img src="https://nceptior.sirv.com/bneparkmanagement/bcc-logo.png" alt="bcc-logo">
+        </div>
     </main>
     <footer>
         <span>
@@ -53,9 +69,9 @@
         </span>
         <div></div>
         <span>
-            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
+            <a href="https://www.facebook.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon"></a>
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon"></a>
         </span>
         <div></div>
         <span>

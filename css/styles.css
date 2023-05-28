@@ -12,7 +12,7 @@ H3, Link(Hover, Visited) - #009b57
 */
 
 body {
-    background: url(../images/queens-garden.jpg);
+    background: url(https://nceptior.sirv.com/bneparkmanagement/queens-garden.jpg);
     margin: 0;
     /* background-color: #f2f2f2; */
 }
@@ -80,7 +80,8 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    color: #009b57;
+    transform: scale(1.1, 1.1);
+    text-decoration: underline;
 }
 
 header > nav > a:visited {
@@ -159,7 +160,8 @@ footer > span > a {
 }
 
 footer > span > a:hover {
-    color: #009b57;
+    transform: scale(1.1, 1.1);
+    text-decoration: underline;
 }
 
 /* Page Styling */
@@ -248,38 +250,8 @@ main div > img {
     max-width: 20em;
 }
 
-.card-alt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #333333;
-    width: fit-content;
-    margin: 1em;
-    padding: 0.5em;
-    border: 2px solid #009b57;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
-    transition: 500ms;
-}
-
-.card-alt:hover {
-    transform: scale(1.02, 1.02);
-    cursor: pointer;
-}
-
-.card-alt > img {
-    border: 2px solid #009b57;
-    border-radius: 4px;
-}
-
-.card-alt > h3 {
-    max-width: 20em;
-    font-size: 1.5rem;
-}
-
-.card-alt > p {
-    max-width: 20em;
+a > .card > p {
+    color: black;
 }
 
 .icon {
@@ -355,6 +327,33 @@ form > fieldset > textarea {
 }
 
 #honeypot {
+    display: none;
+}
+
+/* Table Styling */
+
+table {
+    background: #f2f2f2;
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    border: 4px solid #009b57;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+
+th {
+    border: 4px solid #009b57;
+    border-radius: 10px;
+}
+
+td {
+    margin: 1em;
+    border: 4px solid #009b57;
+    border-radius: 10px;
+}
+
+#largescreen {
     display: none;
 }
 
@@ -444,5 +443,42 @@ form > fieldset > textarea {
     #submit {
         width: 100%;
         height: 2em;
+    }
+}
+
+/* Larger Screen */
+
+@media screen and (min-width: 2000px) {
+    body {
+        background: url(https://nceptior.sirv.com/bneparkmanagement/queens-garden-large.jpg);
+    }
+
+    .card-group {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    main > div {
+        padding-bottom: 5em;
+    }
+
+    main h2 {
+        padding-bottom: 1em;
+    }
+
+    form {
+        height: 30em;
+    }
+
+    form > fieldset > textarea {
+        padding-bottom: 9em;
+    }
+
+    #smallscreen {
+        display: none;
+    }
+
+    #largescreen {
+        display: block
     }
 }

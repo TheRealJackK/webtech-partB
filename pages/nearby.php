@@ -42,10 +42,9 @@
         <div>
             <h2>Nearby Amenities</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae quos debitis eligendi consectetur natus quasi molestias, sapiente sed quis quidem provident autem aspernatur. Amet sit odio commodi ducimus accusantium?
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo error saepe sapiente repudiandae doloribus ut, aliquid, quod dolores vero animi ullam? Debitis, veritatis iusto ut autem libero excepturi? Praesentium, pariatur.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ipsa libero, beatae ipsum tenetur nam reiciendis voluptas obcaecati saepe voluptatibus magnam sed fugit maiores illum minus provident. Iusto, sit odio?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et autem laborum esse atque, labore doloremque numquam placeat officia impedit qui cupiditate. Optio totam quas illo explicabo molestias et a?
+                Near Queens Garden are some of the best Brisbane has to offer. 
+                Right in the heart of Brisbane's CBD, within walking distance of some of the best ammenities and view's the city has to offer.
+                Listed below are some of our top picks! Help our city by spending locally and supporting local businesses.
             </p>
         </div>
         <div class="card-group">
@@ -88,9 +87,9 @@
         </span>
         <div></div>
         <span>
-            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
+            <a href="https://www.facebook.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon"></a>
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon"></a>
         </span>
         <div></div>
         <span>

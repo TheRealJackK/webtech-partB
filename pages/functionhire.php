@@ -39,9 +39,13 @@
         </div>
     </header>
     <main>
-        <h2>Function Hire</h2>
         <div>
-            <p>Description</p>
+            <h2>Function Hire</h2>
+            <p>
+                If you've got the love, and a guest list of your nearest and dearest, Council has perfect uniquely-Brisbane venues for small, special and stylish socially-distanced events for all occasions. 
+                From venues with a view to riverside settings and spaces for celebrating on a budget, we've got you covered with this list of best local venues for events. 
+                If your interesting is hiring one of our venues please send us an email through our <a href="contact.php">Contact Page</a>.
+            </p>
         </div>
         <div class="card-group">
             <?php 
@@ -66,6 +70,166 @@
                 $connect->close();
             ?>
         </div>
+        <h3>Price Estimation Breakdown</h3>
+        <div>
+            <table>
+                <tr>
+                    <th colspan="5"><h3>Wedding Price Estimates</h3></th>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Time Of Day</h3></th>
+                </tr>
+                <tr>
+                    <td><p>Morning 8-11am</p></td>
+                    <td><p>Noon 12-4pm</p></td>
+                    <td><p>Evening 5pm-9pm</p></td>
+                </tr>
+                <tr>
+                    <td><p>$150-$250</p></td>
+                    <td><p>$400-$600</p></td>
+                    <td><p>$700-$1000</p></td>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Guest Amount</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$100-$200</p></td>
+                    <td><p>$200-$400</p></td>
+                    <td><p>$400-$600</p></td>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Equipment Hire</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$50-$100</p></td>
+                    <td><p>$100-$300</p></td>
+                    <td><p>$300-$600</p></td>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Catering Service</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$200-$500</p></td>
+                    <td><p>$1000-$3000</p></td>
+                    <td><p>$4000-$6000</p></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="5"><h3>Corperate Function</h3></th>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Time Of Day</h3></th>
+                </tr>
+                <tr>
+                    <td><p>Morning 8-11am</p></td>
+                    <td><p>Noon 12-4pm</p></td>
+                    <td><p>Evening 5pm-9pm</p></td>
+                </tr>
+                <tr>
+                    <td><p>$150-$250</p></td>
+                    <td><p>$400-$600</p></td>
+                    <td><p>$700-$1000</p></td>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Guest Amount</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$100-$200</p></td>
+                    <td><p>$200-$400</p></td>
+                    <td><p>$400-$600</p></td>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Equipment Hire</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$50-$100</p></td>
+                    <td><p>$100-$300</p></td>
+                    <td><p>$300-$600</p></td>
+                </tr>
+                <th colspan="5"><h3>Catering Service</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$200-$500</p></td>
+                    <td><p>$1000-$3000</p></td>
+                    <td><p>$4000-$6000</p></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="5"><h3>Music Event</h3></th>
+                </tr>
+                <tr>
+                    <th colspan="5"><h3>Time Of Day</h3></th>
+                </tr>
+                <tr>
+                    <td><p>Morning 8-11am</p></td>
+                    <td><p>Noon 12-4pm</p></td>
+                    <td><p>Evening 5pm-9pm</p></td>
+                </tr>
+                <tr>
+                    <td><p>$1000-$2000</p></td>
+                    <td><p>$3000-$5000</p></td>
+                    <td><p>$6000-$10000</p></td>
+                </tr>
+                <tr>
+                <tr>
+                    <th colspan="5"><h3>Equipment Hire</h3></th>
+                </tr>
+                <tr>
+                    <td><p>Stage</p></td>
+                    <td><p>Chairs</p></td>
+                    <td><p>Outdoor Umbrellas or Heaters</p></td>
+                </tr>
+                <tr>
+                    <td><p>$5000-$1000</p></td>
+                    <td><p>$1000-$3000</p></td>
+                    <td><p>$3000-$5000</p></td>
+                </tr>
+                <th colspan="5"><h3>Catering Service</h3></th>
+                </tr>
+                <tr>
+                    <td><p>10-50 Guests</p></td>
+                    <td><p>50-100 Guests</p></td>
+                    <td><p>100-200 Guests</p></td>
+                </tr>
+                <tr>
+                    <td><p>$200-$500</p></td>
+                    <td><p>$1000-$3000</p></td>
+                    <td><p>$4000-$6000</p></td>
+                </tr>
+            </table>
+        </div>
     </main>
     <footer>
         <span>
@@ -83,9 +247,9 @@
         </span>
         <div></div>
         <span>
-            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
+            <a href="https://www.facebook.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon"></a>
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon"></a>
         </span>
         <div></div>
         <span>

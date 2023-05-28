@@ -46,6 +46,29 @@
                 Should you have any further queries or require additional assistance, please do not hesitate to contact us. We are here to support you every step of the way and look forward to the opportunity to serve you further.
             </p>
         </div>
+        <div class="card-group">
+            <a href="nearby.php">
+                <div class="card">
+                    <h3>See What's Nearby</h3>
+                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/whats-nearby.svg" alt="icon">
+                    <p>Click here to see the nearby places you can visit!</p>
+                </div>
+            </a>
+            <a href="events.php">
+                <div class="card">
+                    <h3>Upcoming Events</h3>
+                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/upcoming-events.svg" alt="icon">
+                    <p>Click here to see the upcoming events in the park!</p>
+                </div>
+            </a>
+            <a href="functionhire.php">
+                <div class="card">
+                    <h3>Function Hire</h3>
+                    <img class="icon" src="https://nceptior.sirv.com/bneparkmanagement/function-hire.svg" alt="icon">
+                    <p>Want to hire out one of our parks? Click Here!</p>
+                </div>
+            </a>
+        </div>
     </main>
     <footer>
         <span>
@@ -63,9 +86,9 @@
         </span>
         <div></div>
         <span>
-            <img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon">
-            <img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon">
+            <a href="https://www.facebook.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/facebook.svg" alt="social media icon"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/instagram.svg" alt="social media icon"></a>
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://nceptior.sirv.com/bneparkmanagement/linkedin.svg" alt="social media icon"></a>
         </span>
         <div></div>
         <span>
